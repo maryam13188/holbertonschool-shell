@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 # Loop through all items in the current directory
 for file in *; do
@@ -8,3 +7,4 @@ for file in *; do
     chmod a+x "$file"
   fi
 done
+
