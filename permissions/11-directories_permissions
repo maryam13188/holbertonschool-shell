@@ -1,2 +1,10 @@
 #!/bin/bash
-find . -type d -exec chmod a+x {} \;
+#!/bin/bash
+
+# Loop through all items in the current directory
+for file in *; do
+  # Check if it is a directory
+  if [ -d "$file" ]; then
+    chmod a+x "$file"
+  fi
+done
