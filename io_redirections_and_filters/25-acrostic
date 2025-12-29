@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -ne 'print substr($_,0,1); END{print "\n"}'
